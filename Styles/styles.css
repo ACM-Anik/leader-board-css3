@@ -135,7 +135,7 @@ height: 117px;
 .course-info{
     display:flex ;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .course-author{
     color: #FF4A60;
