@@ -26,9 +26,11 @@ main{
 .header{
     background-color: #562EFF;
     height: 94px;
-    width: 1440px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-bottom: 21px;
 }
 .logo{
     display: flex;
@@ -36,7 +38,7 @@ main{
     color: #FFFFFF;
     font-size: 24px; ;
     gap: 15px;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 .logo>img{
     width: 40.42px;
@@ -46,7 +48,7 @@ main{
     display: flex;
     align-items: center;
     gap: 36px;
-    margin-right: 110px;
+    margin-left: 50px;
     
 }
 .anchor{
@@ -166,6 +168,12 @@ height: 117px;
 @media only screen and (max-width:576px) {
     .container{
         width: 100%;
+        padding: 0;
+    }
+    .header{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
     }
     .players{
         grid-template-columns: repeat(2, 1fr);
@@ -182,6 +190,12 @@ height: 117px;
 @media only screen and (min-width:577px) and (max-width:992px) {
     .container{
         width: 100%;
+        padding: 0;
+    }
+    .header{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
     }
     .players, .courses{
         grid-template-columns: repeat(2, 1fr);
