@@ -19,6 +19,44 @@ main{
     border-radius: 5px;
 }
 
+/*-----------------
+  Header Styles 
+------------------*/
+
+.header{
+    background-color: #562EFF;
+    height: 94px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 24px; ;
+    gap: 15px;
+    margin-right: 100px;
+}
+.logo>img{
+    width: 40.42px;
+    height: 51px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    margin-right: 110px;
+    
+}
+.anchor{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    
+}
+
+
 /* top players styles */
 .top-players{
     margin-bottom:30px ;
